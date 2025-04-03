@@ -142,7 +142,6 @@ def preprocess_input(input_data: dict) -> pd.DataFrame:
     creating a 'tenure_group', and safely casting categorical features to string.
     Returns a DataFrame for one-hot encoding.
     """
-    # Handle missing or invalid TotalCharges gracefully.
     try:
         input_data["TotalCharges"] = float(input_data["TotalCharges"])
     except (ValueError, TypeError):
@@ -234,5 +233,5 @@ async def reload_data_and_model():
 
 if __name__ == "__main__":
     import uvicorn
-    # Run the server on port 7860 with reload enabled.
+
     uvicorn.run("main:app", host="0.0.0.0", port=7860, reload=True)
