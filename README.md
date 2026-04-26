@@ -7,7 +7,7 @@
 
 ### Introduction
 
-In the highly competitive telecom industry, retaining customers is crucial to business growth and profitability. Customer churn — when a customer stops using a service — can lead to significant revenue loss. This project aims to provide a data-driven solution to predict customer churn before it happens.
+In the highly competitive telecom industry, retaining customers is crucial to business growth and profitability. Customer churn when a customer stops using a service can lead to significant revenue loss. This project aims to provide a data-driven solution to predict customer churn before it happens.
 
 The **Churn Prediction Analyzer** is a full-stack machine learning application that integrates a powerful prediction model with a clean and interactive user interface. The solution enables businesses to make proactive decisions for customer retention using real-time prediction results.
 
