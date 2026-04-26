@@ -1,11 +1,11 @@
-## 📘 Project Information: Churn Prediction Analyzer in Telecom Services
+## Project Information: Churn Prediction Analyzer in Telecom Services
 
-### 🧠 Project Title:
+### Project Title:
 **Churn Prediction Analyzer in Telecom Services with Machine Learning and API Integration**
 
 ---
 
-### 📌 Introduction
+### Introduction
 
 In the highly competitive telecom industry, retaining customers is crucial to business growth and profitability. Customer churn — when a customer stops using a service — can lead to significant revenue loss. This project aims to provide a data-driven solution to predict customer churn before it happens.
 
@@ -13,7 +13,7 @@ The **Churn Prediction Analyzer** is a full-stack machine learning application t
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 - Predict whether a customer will churn based on their profile and service usage.
 - Develop a user-friendly web application where users can input customer details.
@@ -22,13 +22,13 @@ The **Churn Prediction Analyzer** is a full-stack machine learning application t
 
 ---
 
-### 🧩 Problem Statement
+### Problem Statement
 
 Customer churn prediction is a classification problem where the goal is to classify whether a given customer is likely to stop using the telecom services. Traditional manual analysis is inefficient and subjective. This application solves the problem using automation, ML-driven insights, and an accessible API.
 
 ---
 
-### ⚙️ System Architecture
+### System Architecture
 
 1. **Frontend (React.js)**:
    - A responsive UI to gather user input for customer details.
@@ -53,7 +53,7 @@ Customer churn prediction is a classification problem where the goal is to class
 
 ---
 
-### 📚 Dataset Details
+### Dataset Details
 
 **Dataset Name:** Telco Customer Churn  
 **Source:** IBM Sample Data  
@@ -65,7 +65,7 @@ Customer churn prediction is a classification problem where the goal is to class
 
 ---
 
-### 🔍 Machine Learning Workflow
+### Machine Learning Workflow
 
 1. **Data Preprocessing:**
    - Handling missing values.
@@ -82,7 +82,7 @@ Customer churn prediction is a classification problem where the goal is to class
 
 ---
 
-### 🧪 API Overview
+### API Overview
 
 **Endpoint:** `POST /predict`  
 **Description:** Takes JSON data of a customer and returns a churn prediction.
